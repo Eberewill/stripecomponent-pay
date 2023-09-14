@@ -2,6 +2,7 @@ import Stripe from 'stripe'
 const  STRIPE_WEBHOOK_SECRET =  '/webhook'
 
 const PUBLIC_STRIPE_KEY = "pk_test_TYooMQauvdEDq54NiTphI7jx"
+const  SECRET_STRIPE_KEY = "sk_test_4eC39HqLyjWDarjtT1zdp7dc"
   
 const stripe = new Stripe(SECRET_STRIPE_KEY)
 
