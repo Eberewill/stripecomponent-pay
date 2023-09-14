@@ -1,5 +1,5 @@
 import Stripe from 'stripe'
-import {  STRIPE_WEBHOOK_SECRET } from '$env/static/private'
+const  STRIPE_WEBHOOK_SECRET =  '/webhook'
 
 const PUBLIC_STRIPE_KEY = "pk_test_TYooMQauvdEDq54NiTphI7jx"
   
