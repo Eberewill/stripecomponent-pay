@@ -4,6 +4,7 @@ export default {
   theme: {
     colors: {
       'themeGreen': 'rgb(177, 204, 79)',
+      'darkColor': '#203136'
       // You can add more colors here if needed.
     },
     extend: {},
